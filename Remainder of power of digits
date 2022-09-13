@@ -1,0 +1,7 @@
+#Find Remainder of the power of digit
+a = int(input("Enter the number:\n"))
+b = int(input("Enter the power:\n"))
+x = pow(a, b)
+c = int(input("Enter the number you want to check divisibility of:\n"))
+y = x % c
+print(f"{a} ^ {b} % {c} = {y}")

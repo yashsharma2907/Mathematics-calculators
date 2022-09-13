@@ -1,0 +1,8 @@
+#Unit Digit remaining
+#Python Code 
+
+
+a = int(input("Enter the number"))
+b = int(input("Enter the power"))
+x = pow(a, b) % 10
+print(x)
